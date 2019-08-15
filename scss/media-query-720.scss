@@ -1,0 +1,50 @@
+@media (min-width: 720px){
+    header{
+        margin: 40px 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+        .navBar{
+            width: 70%;
+            ul{
+                display: flex;
+                flex-direction: row;
+                li{
+                    text-decoration: none;
+                    display: inline;
+                    list-style-type: none;
+                    margin: auto;
+                    a{
+                     
+                        text-transform: uppercase;
+                        display: block;
+                        margin: auto;
+                    }
+                }
+            }
+
+        }
+       
+    }
+    .main{
+    .lower-section{
+        grid-template-columns: 1fr 1fr;
+    img{
+        max-width: 100%;
+    }
+    }
+}
+.footer{
+padding: 0 50px;
+
+.follow{
+
+    span{
+        visibility: visible;
+    }
+   
+}
+}
+}

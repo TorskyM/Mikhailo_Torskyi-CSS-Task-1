@@ -1,0 +1,19 @@
+$common-margin: 40px 15% 0 15%;
+$main-font: "Playfair Display";
+@mixin link-style{
+    margin: 0 0 15px 0;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e;
+    font-size: 14px;
+    font-weight: 300;
+}
+@mixin button-style {
+    background-color: white;
+    margin: 100px 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    height: 50px;
+    width: 120px;
+    border: 1px solid black;
+}
